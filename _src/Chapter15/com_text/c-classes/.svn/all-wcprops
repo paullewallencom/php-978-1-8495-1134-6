@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/addons/!svn/ver/131/trunk/components/com_text/c-classes
+END
+text_inlist_Controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/addons/!svn/ver/44/trunk/components/com_text/c-classes/text_inlist_Controller.php
+END
+text_display_Controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/addons/!svn/ver/131/trunk/components/com_text/c-classes/text_display_Controller.php
+END
+text_taglist_Controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/addons/!svn/ver/131/trunk/components/com_text/c-classes/text_taglist_Controller.php
+END
+text_multiple_Controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/addons/!svn/ver/44/trunk/components/com_text/c-classes/text_multiple_Controller.php
+END

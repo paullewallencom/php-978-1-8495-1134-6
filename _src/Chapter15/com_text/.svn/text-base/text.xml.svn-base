@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extinstall SYSTEM "http://www.aliro.org/xml/extinstall.dtd">
+<extinstall type="application" version="2.0" adminclass="textAdmin" userclass="textUser" menuclass="simpleTextMenu">
+	<name>Simple Text</name>
+	<formalname>com_text</formalname>
+	<version>1.0</version>
+	<description><![CDATA[A very simple component to store straightforward articles that do not need to be in folders.]]></description>
+	<creationdate>February 2008</creationdate>
+	<author>Martin Brampton</author>
+	<authorurl>www.aliro.org</authorurl>
+	<authoremail>counterpoint@aliro.org</authoremail>
+	<copyright>copyright (C) 2007 Martin Brampton</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<module userclass="mod_text">
+		<name>Display Text</name>
+		<formalname>mod_text</formalname>
+		<description>Display a single text item, defined by the parameter</description>
+		<params>
+			<param name="id" type="text" default="0" label="Text item ID" description="The ID number of the simple text item for display" />
+		</params>
+	</module>
+	<module userclass="mod_text_list">
+		<name>Display Text List</name>
+		<formalname>mod_text_list</formalname>
+		<description>Display a list of text items, defined by one or more tags, given as parameters</description>
+		<params>
+			<param name="tags" type="text" default="" label="Tag or tags" description="One or more (comma separated) tags to select text items for the list." />
+		</params>
+	</module>
+	<plugin userclass="botTextFix" triggers="onIntroText,onMainText" published="yes">
+		<name>Fix up text before display</name>
+		<formalname>bot_textfix</formalname>
+		<description>Deals with read more and similar codes in text</description>
+		<params>
+			<param name="margin" type="text" default="5" size="5" label="Margin" description="Margin in px, of Div surrounding Image & Caption - only applies if using a Caption" />
+			<param name="padding" type="text" default="5" size="5" label="Padding" description="Padding in px, of Div surrounding Image & Caption - only applies if using a Caption" />
+		</params>
+	</plugin>
+	<plugin userclass="botSearchText" triggers="onSearch" published="yes">
+		<name>Text search</name>
+		<formalname>bot_textsearch</formalname>
+		<description>Assists the search component by searching text items</description>
+	</plugin>
+	<classfiles>
+   		<filename classes="textUser,textUserControllers">text.php</filename>
+    	<filename classes="text_display_Controller">c-classes/text_display_Controller.php</filename>
+    	<filename classes="text_inlist_Controller">c-classes/text_inlist_Controller.php</filename>
+    	<filename classes="text_multiple_Controller">c-classes/text_multiple_Controller.php</filename>
+    	<filename classes="text_taglist_Controller">c-classes/text_taglist_Controller.php</filename>
+    	<filename classes="textHTML">v-classes/textHTML.php</filename>
+    	<filename classes="text_general_HTML">v-classes/text_general_HTML.php</filename>
+    	<filename classes="textItem">p-classes/textItem.php</filename>
+    	<filename classes="mod_text,mod_text_list">services/text_modules.php</filename>
+    	<filename classes="botTextFix,botSearchText">services/text_plugins.php</filename>
+    	<filename classes="sef_text">sef_ext.php</filename>
+	</classfiles>
+	<install>
+		<queries>
+      		<query>
+			CREATE TABLE IF NOT EXISTS `#__simple_text` (
+			`id` int(11) NOT NULL auto_increment,
+			`folderid` int(11) NOT NULL default '0',
+			`dfolderid` int(11) NOT NULL default '0',
+			`headline` varchar(100) NOT NULL default '',
+			`subhead` text NOT NULL,
+			`article` mediumtext NOT NULL,
+			`created` datetime NOT NULL default '0000-00-00 00:00:00',
+			`modified` datetime NOT NULL default '0000-00-00 00:00:00',
+			`published` tinyint(1) unsigned NOT NULL default '0',
+			`publish_start` datetime NOT NULL default '0000-00-00 00:00:00',
+			`publish_end` datetime NOT NULL default '0000-00-00 00:00:00',
+			`author_id` int(11) NOT NULL default 0,
+			`byline` varchar(100) NOT NULL default '',
+			`modify_id` int(11) NOT NULL default '0',
+			`hits` int(11) NOT NULL default '0',
+			`version` varchar(20) NOT NULL default '',
+			`metakey` text NOT NULL,
+			`metadesc` text NOT NULL,
+			PRIMARY KEY  (`id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+			</query>
+			<query>
+			CREATE TABLE IF NOT EXISTS `#__simple_text_tags` (
+			  `text_id` int(11) NOT NULL default '0',
+			  `tag_id` int(11) NOT NULL default '0',
+			  `describes` tinyint(1) unsigned NOT NULL default '0',
+			  PRIMARY KEY  (`text_id`,`tag_id`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+			</query>
+		</queries>
+	</install>
+	<uninstall>
+		<queries>
+			<query>
+				DROP TABLE IF EXISTS `#__simple_text`;
+			</query>
+			<query>
+				DROP TABLE IF EXISTS `#__simple_text_tags`;
+			</query>
+		</queries>
+	</uninstall>
+	<installfile class="installtext">install.text.php</installfile>
+	<uninstallfile class="uninstalltext">uninstall.text.php</uninstallfile>
+	<upgradefile class="upgradetext">upgrade.text.php</upgradefile>
+	<administration>
+		<files>
+			<filename>admin.text.css</filename>
+		</files>
+		<classfiles>
+			<filename classes="textAdmin">admin.text.php</filename>
+			<filename classes="textAdminText">c-admin-classes/textAdminText.php</filename>
+			<filename classes="listTextHTML">v-admin-classes/listTextHTML.php</filename>
+			<filename classes="simpleTextMenu">admin.newmenu.php</filename>
+		</classfiles>
+     	<menu>Simple Text</menu>
+  	</administration>
+</extinstall>

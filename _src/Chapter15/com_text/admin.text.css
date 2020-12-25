@@ -1,0 +1,16 @@
+/* CSS for admin side of simple text component */
+
+#simpletext1 {
+	float: left;
+	padding: 5px;
+}
+#simpletext2 {
+	float: left;
+	padding: 15px 0 0 5px;
+}
+#simpletext3 {
+	clear: left;
+}
+table.adminlist {
+	text-align: left;
+}

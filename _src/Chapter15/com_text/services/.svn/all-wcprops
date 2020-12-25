@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/addons/!svn/ver/143/trunk/components/com_text/services
+END
+text_modules.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/addons/!svn/ver/143/trunk/components/com_text/services/text_modules.php
+END
+text_plugins.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/addons/!svn/ver/143/trunk/components/com_text/services/text_plugins.php
+END

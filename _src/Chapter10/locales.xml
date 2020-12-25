@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE locales SYSTEM "http://www.aliro.org/xml/locales.dtd">
+<locales>
+	<locale name="afrikaans" title="Afrikaans" territory="South Africa" text_direction="ltr" iso639="af" iso3166_2="ZA" iso3166_3="ZAF" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%B %d, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="ZA" iso3166_3="ZAF">South Africa</territory>
+		</territories>
+		<days sun="So" mon="Ma" tue="Di" wed="Wo" thu="Do" fri="Fr" sat="Sa"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="Mei" jun="Jun" jul="Jul" aug="Aug" sep="Sep" oct="Okt" nov="Nov" dec="Des"></months>
+	</locale>
+	<locale name="albanian" title="Albanian" territory="Albania" text_direction="ltr" iso639="sq" iso3166_2="AL" iso3166_3="ALB" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d %B, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="AL" iso3166_3="ALB">Albania</territory>
+		</territories>
+		<days sun="Djl" mon="Hën" tue="Mar" wed="Mër" thu="Enj" fri="Pre" sat="Sht"></days>
+		<months jan="Jan" feb="Shk" mar="Mar" apr="Pri" may="Maj" jun="Qer" jul="Kor" aug="Gsh" sep="Sht" oct="Tet" nov="Nën" dec="Dhj"></months>
+	</locale>
+	<locale name="arabic" title="Arabic" territory="" text_direction="rtl" iso639="ar" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d %B %Y الساعة %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>windows-1256</charset>
+			<charset>iso-8859-6</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="DZ" iso3166_3="DZA">Algeria</territory>
+			<territory iso3166_2="BH" iso3166_3="BHR">Bahrain</territory>
+			<territory iso3166_2="EG" iso3166_3="EGY">Egypt</territory>
+			<territory iso3166_2="IN" iso3166_3="IND">India</territory>
+			<territory iso3166_2="IQ" iso3166_3="IRQ">Iraq</territory>
+			<territory iso3166_2="JO" iso3166_3="JOR">Jordan</territory>
+			<territory iso3166_2="KW" iso3166_3="KWT">Kuwait</territory>
+			<territory iso3166_2="LB" iso3166_3="LBN">Lebanon</territory>
+			<territory iso3166_2="LY" iso3166_3="LBY">Libyan Arab Jamahiriya</territory>
+			<territory iso3166_2="MA" iso3166_3="MAR">Morocco</territory>
+			<territory iso3166_2="OM" iso3166_3="OMN">Oman</territory>
+			<territory iso3166_2="QA" iso3166_3="QAT">Qatar</territory>
+			<territory iso3166_2="SA" iso3166_3="SAU">Saudi Arabia</territory>
+			<territory iso3166_2="SD" iso3166_3="SDN">Sudan</territory>
+			<territory iso3166_2="SY" iso3166_3="SYR">Syrian Arab Republic</territory>
+			<territory iso3166_2="TN" iso3166_3="TUN">Tunisia</territory>
+			<territory iso3166_2="AE" iso3166_3="ARE">United Arab Emirates</territory>
+			<territory iso3166_2="YE" iso3166_3="YEM">Yemen</territory>
+		</territories>
+		<days sun="الأحد" mon="الإثنين" tue="الثلاثاء" wed="الأربعاء" thu="الخميس" fri="الجمعة" sat="السبت"></days>
+		<months jan="يناير" feb="فبراير" mar="مارس" apr="أبريل" may="مايو" jun="يونيو" jul="يوليو" aug="أغسطس" sep="سبتمبر" oct="أكتوبر" nov="نوفمبر" dec="ديسمبر"></months>
+	</locale>
+	<locale name="basque" title="Basque" territory="Spain" text_direction="ltr" iso639="eu" iso3166_2="ES" iso3166_3="ESP" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%Y-%m-%d, %H:%M:%S</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="ES" iso3166_3="ESP">Spain</territory>
+		</territories>
+		<days sun="Iga" mon="Astel" tue="Astea" wed="Astez" thu="Oste" fri="Osti" sat="Lar"></days>
+		<months jan="Urt" feb="Ots" mar="Mar" apr="Api" may="Mai" jun="Eka" jul="Uzt" aug="Abu" sep="Ira" oct="Urr" nov="Aza" dec="Abe"></months>
+	</locale>
+	<locale name="bulgarian" title="Bulgarian" territory="Bulgaria" text_direction="ltr" iso639="bg" iso3166_2="BG" iso3166_3="BGR" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%e %B %Y в %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>koi8-r</charset>
+			<charset>windows-1251</charset>
+			<charset>cp1251</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="BG" iso3166_3="BGR">Bulgaria</territory>
+		</territories>
+		<days sun="нд" mon="пн" tue="вт" wed="ср" thu="чт" fri="пт" sat="сб"></days>
+		<months jan="януари" feb="февруари" mar="март" apr="април" may="май" jun="юни" jul="юли" aug="август" sep="септември" oct="окомври" nov="ноември" dec="декември"></months>
+	</locale>
+	<locale name="catalan" title="Catalan" territory="Spain" text_direction="ltr" iso639="ca" iso3166_2="ES" iso3166_3="ESP" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d-%m-%Y a les %H:%M:%S</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="ES" iso3166_3="ESP">Spain</territory>
+		</territories>
+		<days sun="Diu" mon="Dll" tue="Dma" wed="Dcr" thu="Djs" fri="Div" sat="Dis"></days>
+		<months jan="Gen" feb="Feb" mar="Mar" apr="Abr" may="Mai" jun="Jun" jul="Jul" aug="Ago" sep="Set" oct="Oct" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="chinese" title="Chinese" territory="" text_direction="ltr" iso639="zh" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%Y 年 %m 月 %d 日 %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>gb2312</charset>
+			<charset>gb18030</charset>
+			<charset>gbk</charset>
+			<charset>big5-hkscs</charset>
+			<charset>big5</charset>
+			<charset>euc-tw</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="CN" iso3166_3="CHN">China</territory>
+			<territory iso3166_2="HK" iso3166_3="HKG">Hong Kong</territory>
+			<territory iso3166_2="TW" iso3166_3="TWN">Taiwan</territory>
+		</territories>
+		<days sun="周日" mon="周一" tue="周二" wed="周三" thu="周四" fri="周五" sat="周六"></days>
+		<months jan="一月" feb="二月" mar="三月" apr="四月" may="五月" jun="六月" jul="七月" aug="八月" sep="九月" oct="十月" nov="十一月" dec="十二月"></months>
+	</locale>
+	<locale name="croatian" title="Croatian" territory="Croatia" text_direction="ltr" iso639="hr" iso3166_2="HR" iso3166_3="HRV" charset="utf-8">
+		<plural_form nplurals="3" plural="n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2" expression="nplurals=3; plural=n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2;"></plural_form>
+		<date_format>%d. %B %Y. u %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-2</charset>
+			<charset>windows-1250</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="HR" iso3166_3="HRV">Croatia</territory>
+		</territories>
+		<days sun="Ned" mon="Pon" tue="Uto" wed="Sri" thu="Čet" fri="Pet" sat="Sub"></days>
+		<months jan="Sij" feb="Vel" mar="Ožu" apr="Tra" may="Svi" jun="Lip" jul="Srp" aug="Kol" sep="Ruj" oct="Lis" nov="Stu" dec="Pro"></months>
+	</locale>
+	<locale name="czech" title="Czech" territory="Czech Republic" text_direction="ltr" iso639="cs" iso3166_2="CZ" iso3166_3="CZE" charset="utf-8">
+		<plural_form nplurals="3" plural="n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2" expression="nplurals=3; plural=n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2;"></plural_form>
+		<date_format>%a %d. %b %Y, %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-2</charset>
+			<charset>windows-1250</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="CZ" iso3166_3="CZE">Czech Republic</territory>
+		</territories>
+		<days sun="Neděle" mon="Pondělí" tue="Úterý" wed="Středa" thu="Čtvrtek" fri="Pátek" sat="Sobota"></days>
+		<months jan="ledna" feb="února" mar="března" apr="dubna" may="května" jun="června" jul="července" aug="srpna" sep="září" oct="října" nov="listopadu" dec="prosince"></months>
+	</locale>
+	<locale name="danish" title="Danish" territory="Denmark" text_direction="ltr" iso639="da" iso3166_2="DK" iso3166_3="DNK" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d/%m %Y kl. %H:%M:%S</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="DK" iso3166_3="DNK">Denmark</territory>
+		</territories>
+		<days sun="søn" mon="man" tue="tir" wed="ons" thu="tor" fri="fre" sat="lør"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="Maj" jun="Jun" jul="Jul" aug="Aug" sep="Sep" oct="Okt" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="dutch" title="Dutch" territory="" text_direction="ltr" iso639="nl" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d %B %Y om %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="BE" iso3166_3="BEL">Belgium</territory>
+			<territory iso3166_2="NL" iso3166_3="NLD">Netherlands</territory>
+		</territories>
+		<days sun="Zo" mon="Ma" tue="Di" wed="Wo" thu="Do" fri="Vr" sat="Za"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="Mei" jun="Jun" jul="Jul" aug="Aug" sep="Sept" oct="Oct" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="english" title="English" territory="" text_direction="ltr" iso639="en" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%B %d, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="AU" iso3166_3="AUS">Australia</territory>
+			<territory iso3166_2="BW" iso3166_3="BWA">Botswana</territory>
+			<territory iso3166_2="CA" iso3166_3="CAN">Canada</territory>
+			<territory iso3166_2="DK" iso3166_3="DNK">Denmark</territory>
+			<territory iso3166_2="HK" iso3166_3="HKG">Hong Kong</territory>
+			<territory iso3166_2="IN" iso3166_3="IND">India</territory>
+			<territory iso3166_2="IE" iso3166_3="IRL">Ireland</territory>
+			<territory iso3166_2="NZ" iso3166_3="NZL">New Zealand</territory>
+			<territory iso3166_2="PH" iso3166_3="PHL">Philippines</territory>
+			<territory iso3166_2="SG" iso3166_3="SGP">Singapore</territory>
+			<territory iso3166_2="ZA" iso3166_3="ZAF">South Africa</territory>
+			<territory iso3166_2="GB" iso3166_3="GBR">United Kingdom</territory>
+			<territory iso3166_2="US" iso3166_3="USA">United States</territory>
+			<territory iso3166_2="ZW" iso3166_3="ZWE">Zimbabwe</territory>
+		</territories>
+		<days sun="Sun" mon="Mon" tue="Tue" wed="Wed" thu="Thu" fri="Fri" sat="Sat"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="May" jun="Jun" jul="Jul" aug="Aug" sep="Sep" oct="Oct" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="estonian" title="Estonian" territory="Estonia" text_direction="ltr" iso639="et" iso3166_2="EE" iso3166_3="EST" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d.%m.%Y kell %H:%M:%S</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="EE" iso3166_3="EST">Estonia</territory>
+		</territories>
+		<days sun="Püh" mon="Esm" tue="Tei" wed="Kol" thu="Nel" fri="Ree" sat="Lau"></days>
+		<months jan="Jan" feb="Veb" mar="Mär" apr="Apr" may="Mai" jun="Jun" jul="Jul" aug="Aug" sep="Sep" oct="Okt" nov="Nov" dec="Det"></months>
+	</locale>
+	<locale name="finnish" title="Finnish" territory="Finland" text_direction="ltr" iso639="fi" iso3166_2="FI" iso3166_3="FIN" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d.%m.%Y klo %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="FI" iso3166_3="FIN">Finland</territory>
+		</territories>
+		<days sun="Su" mon="Ma" tue="Ti" wed="Ke" thu="To" fri="Pe" sat="La"></days>
+		<months jan="Tammi" feb="Helmi" mar="Maalis" apr="Huhti" may="Touko" jun="Kesä" jul="Heinä" aug="Elo" sep="Syys" oct="Loka" nov="Marras" dec="Joulu"></months>
+	</locale>
+	<locale name="french" title="French" territory="" text_direction="ltr" iso639="fr" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="2" plural="n&gt;1" expression="nplurals=2; plural=n&gt;1;"></plural_form>
+		<date_format>%A %d %B %Y à %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="BE" iso3166_3="BEL">Belgium</territory>
+			<territory iso3166_2="CA" iso3166_3="CAN">Canada</territory>
+			<territory iso3166_2="FR" iso3166_3="FRA">France</territory>
+			<territory iso3166_2="LU" iso3166_3="LUX">Luxembourg</territory>
+			<territory iso3166_2="CH" iso3166_3="CHE">Switzerland</territory>
+		</territories>
+		<days sun="Dimanche" mon="Lundi" tue="Mardi" wed="Mercredi" thu="Jeudi" fri="Vendredi" sat="Samedi"></days>
+		<months jan="Janvier" feb="Février" mar="Mars" apr="Avril" may="Mai" jun="Juin" jul="Juillet" aug="Août" sep="Septembre" oct="Octobre" nov="Novembre" dec="Décembre"></months>
+	</locale>
+	<locale name="galician" title="Galician" territory="Spain" text_direction="ltr" iso639="gl" iso3166_2="ES" iso3166_3="ESP" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%B %d, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="ES" iso3166_3="ESP">Spain</territory>
+		</territories>
+		<days sun="Sun" mon="Mon" tue="Tue" wed="Wed" thu="Thu" fri="Fri" sat="Sat"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="May" jun="Jun" jul="Jul" aug="Aug" sep="Sep" oct="Oct" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="georgian" title="Georgian" territory="Georgia" text_direction="ltr" iso639="ka" iso3166_2="GE" iso3166_3="GEO" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%B %d, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>georgian-ps</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="GE" iso3166_3="GEO">Georgia</territory>
+		</territories>
+		<days sun="Sun" mon="Mon" tue="Tue" wed="Wed" thu="Thu" fri="Fri" sat="Sat"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="May" jun="Jun" jul="Jul" aug="Aug" sep="Sep" oct="Oct" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="german" title="German" territory="" text_direction="ltr" iso639="de" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d. %B %Y um %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="AT" iso3166_3="AUT">Austria</territory>
+			<territory iso3166_2="BE" iso3166_3="BEL">Belgium</territory>
+			<territory iso3166_2="DE" iso3166_3="DEU">Germany</territory>
+			<territory iso3166_2="LU" iso3166_3="LUX">Luxembourg</territory>
+			<territory iso3166_2="CH" iso3166_3="CHE">Switzerland</territory>
+		</territories>
+		<days sun="So" mon="Mo" tue="Di" wed="Mi" thu="Do" fri="Fr" sat="Sa"></days>
+		<months jan="Januar" feb="Februar" mar="März" apr="April" may="Mai" jun="Juni" jul="Juli" aug="August" sep="September" oct="Oktober" nov="November" dec="Dezember"></months>
+	</locale>
+	<locale name="greek" title="Greek" territory="Greece" text_direction="ltr" iso639="el" iso3166_2="GR" iso3166_3="GRC" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d %B %Y, στις %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-7</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="GR" iso3166_3="GRC">Greece</territory>
+		</territories>
+		<days sun="Κυρ" mon="Δευ" tue="Τρι" wed="Τετ" thu="Πεμ" fri="Παρ" sat="Σαβ"></days>
+		<months jan="Ιαν" feb="Φεβ" mar="Μάρ" apr="Απρ" may="Μάι" jun="Ιούν" jul="Ιούλ" aug="Αυγ" sep="Σεπ" oct="Οκτ" nov="Νοε" dec="Δεκ"></months>
+	</locale>
+	<locale name="hebrew" title="Hebrew" territory="Israel" text_direction="rtl" iso639="iw" iso3166_2="IL" iso3166_3="ISR" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%B %d, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-8-i</charset>
+			<charset>iso-8859-8</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="IL" iso3166_3="ISR">Israel</territory>
+		</territories>
+		<days sun="ראשון" mon="שני" tue="שלישי" wed="רביעי" thu="חמישי" fri="שישי" sat="שבת"></days>
+		<months jan="ינואר" feb="פברואר" mar="מרץ" apr="אפריל" may="מאי" jun="יוני" jul="יולי" aug="אוגוסט" sep="ספטמבר" oct="אוקטובר" nov="נובמבר" dec="דצמבר"></months>
+	</locale>
+	<locale name="hindi" title="Hindi" territory="India" text_direction="rtl" iso639="hi" iso3166_2="IN" iso3166_3="IND" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d %B, %Y को %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="IN" iso3166_3="IND">India</territory>
+		</territories>
+		<days sun="रवी" mon="सोम" tue="मन्गल" wed="बुध" thu="गुरु" fri="शुक्र" sat="शनि"></days>
+		<months jan="जनवरी" feb="फरवरी" mar="मार्च" apr="अप्रैल" may="मई" jun="जून" jul="जुलाई" aug="अगस्त" sep=" सितम्बर" oct="अक्तूबर" nov="नवम्बर" dec="दिसमबर"></months>
+	</locale>
+	<locale name="hungarian" title="Hungarian" territory="Hungary" text_direction="ltr" iso639="hu" iso3166_2="HU" iso3166_3="HUN" charset="utf-8">
+		<plural_form nplurals="1" plural="0" expression="nplurals=1; plural=0;"></plural_form>
+		<date_format>%Y. %B %d. %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-2</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="HU" iso3166_3="HUN">Hungary</territory>
+		</territories>
+		<days sun="V" mon="H" tue="K" wed="Sze" thu="Cs" fri="P" sat="Szo"></days>
+		<months jan="Jan" feb="Feb" mar="Márc" apr="Ápr" may="Máj" jun="Jún" jul="Júl" aug="Aug" sep="Szept" oct="Okt" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="indonesian" title="Indonesian" territory="Indonesia" text_direction="ltr" iso639="in" iso3166_2="ID" iso3166_3="IDN" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d. %B %Y jam %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="ID" iso3166_3="IDN">Indonesia</territory>
+		</territories>
+		<days sun="Minggu" mon="Senin" tue="Selasa" wed="Rabu" thu="Kamis" fri="Jumat" sat="Sabtu"></days>
+		<months jan="Januari" feb="Februari" mar="Maret" apr="April" may="Mei" jun="Juni" jul="Juli" aug="Agustus" sep="September" oct="Oktober" nov="Nopember" dec="Desember"></months>
+	</locale>
+	<locale name="italian" title="Italian" territory="" text_direction="ltr" iso639="it" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d %B, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="IT" iso3166_3="ITA">Italy</territory>
+			<territory iso3166_2="CH" iso3166_3="CHE">Switzerland</territory>
+		</territories>
+		<days sun="Dom" mon="Lun" tue="Mar" wed="Mer" thu="Gio" fri="Ven" sat="Sab"></days>
+		<months jan="Gen" feb="Feb" mar="Mar" apr="Apr" may="Mag" jun="Giu" jul="Lug" aug="Ago" sep="Set" oct="Ott" nov="Nov" dec="Dic"></months>
+	</locale>
+	<locale name="japanese" title="Japanese" territory="Japan" text_direction="ltr" iso639="ja" iso3166_2="JP" iso3166_3="JPN" charset="utf-8">
+		<plural_form nplurals="1" plural="0" expression="nplurals=1; plural=0;"></plural_form>
+		<date_format>%Y 年 %B %d 日 %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>euc</charset>
+			<charset>sjis</charset>
+			<charset>euc-jp</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="JP" iso3166_3="JPN">Japan</territory>
+		</territories>
+		<days sun="日" mon="月" tue="火" wed="水" thu="木" fri="金" sat="土"></days>
+		<months jan="1月" feb="2月" mar="3月" apr="4月" may="5月" jun="6月" jul="7月" aug="8月" sep="9月" oct="10月" nov="11月" dec="12月"></months>
+	</locale>
+	<locale name="korean" title="Korean" territory="Korea" text_direction="ltr" iso639="ko" iso3166_2="KR" iso3166_3="KOR" charset="utf-8">
+		<plural_form nplurals="1" plural="0" expression="nplurals=1; plural=0;"></plural_form>
+		<date_format>%y-%m-%d %H:%M </date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>euc-kr</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="KR" iso3166_3="KOR">Korea</territory>
+		</territories>
+		<days sun="일" mon="월" tue="화" wed="수" thu="목" fri="금" sat="토"></days>
+		<months jan="해오름달" feb="시샘달" mar="물오름달" apr="잎새달" may="푸른달" jun="누리달" jul="견우직녀달" aug="타오름달" sep="열매달" oct="하늘연달" nov="미틈달" dec="매듭달"></months>
+	</locale>
+	<locale name="latvian" title="Latvian" territory="Latvia" text_direction="ltr" iso639="lv" iso3166_2="LV" iso3166_3="LVA" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d.%m.%Y %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>windows-1257</charset>
+			<charset>iso-8859-13</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="LV" iso3166_3="LVA">Latvia</territory>
+		</territories>
+		<days sun="Sv" mon="P" tue="O" wed="T" thu="C" fri="Pk" sat="S"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="Mai" jun="Jūn" jul="Jūl" aug="Aug" sep="Sep" oct="Okt" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="lithuanian" title="Lithuanian" territory="Lithuania" text_direction="ltr" iso639="lt" iso3166_2="LT" iso3166_3="LTU" charset="utf-8">
+		<plural_form nplurals="3" plural="n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2" expression="nplurals=3; plural=n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2;"></plural_form>
+		<date_format> %Y m. %B %d d.  %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>windows-1257</charset>
+			<charset>iso-8859-13</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="LT" iso3166_3="LTU">Lithuania</territory>
+		</territories>
+		<days sun="Sekmadienis" mon="Pirmadienis" tue="Antradienis" wed="Trečiadienis" thu="Ketvirtadienis" fri="Penktadienis" sat="Šeštadienis"></days>
+		<months jan="Sausio" feb="Vasario" mar="Kovo" apr="Balandžio" may="Gegužio" jun="Birželio" jul="Liepos" aug="Rugpjūčio" sep="Rugsėjo" oct="Spalio" nov="Lapkričio" dec="Gruodžio"></months>
+	</locale>
+	<locale name="malay" title="Malay" territory="Malaysia" text_direction="ltr" iso639="ms" iso3166_2="MY" iso3166_3="MYS" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%B %d, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="MY" iso3166_3="MYS">Malaysia</territory>
+		</territories>
+		<days sun="Aha" mon="Isn" tue="Sel" wed="Rab" thu="Kha" fri="Jum" sat="Sab"></days>
+		<months jan="Jan" feb="Feb" mar="Mac" apr="Apr" may="Mei" jun="Jun" jul="Jul" aug="Ogos" sep="Sept" oct="Okt" nov="Nov" dec="Dis"></months>
+	</locale>
+	<locale name="norwegian" title="Norwegian" territory="Norway" text_direction="ltr" iso639="no" iso3166_2="NO" iso3166_3="NOR" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d. %B, %Y klokka %H:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="NO" iso3166_3="NOR">Norway</territory>
+		</territories>
+		<days sun="Søn" mon="Man" tue="Tir" wed="Ons" thu="Tor" fri="Fre" sat="Lør"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="Mai" jun="Jun" jul="Jul" aug="Aug" sep="Sep" oct="Okt" nov="Nov" dec="Des"></months>
+	</locale>
+	<locale name="persian" title="Persian" territory="Iran" text_direction="rtl" iso639="fa" iso3166_2="IR" iso3166_3="IRN" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d %B %Y ساعت %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>windows-1256</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="IR" iso3166_3="IRN">Iran</territory>
+		</territories>
+		<days sun="يكشنبه" mon="دوشنبه" tue="سه‌شنبه" wed="چهارشنبه" thu="پنج‌شنبه" fri="جمعه" sat="شنبه"></days>
+		<months jan="ژانويه" feb="فوريه" mar="مارس" apr="آوريل" may="مي" jun="ژوئن" jul="جولاي" aug="آگوست" sep="سپتامبر" oct="اكتبر" nov="نوامبر" dec="دسامبر"></months>
+	</locale>
+	<locale name="polish" title="Polish" territory="Poland" text_direction="ltr" iso639="pl" iso3166_2="PL" iso3166_3="POL" charset="utf-8">
+		<plural_form nplurals="3" plural="n==1 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2" expression="nplurals=3; plural=n==1 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2;"></plural_form>
+		<date_format>%d %B %Y, %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-2</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="PL" iso3166_3="POL">Poland</territory>
+		</territories>
+		<days sun="Nie" mon="Pon" tue="Wto" wed="Śro" thu="Czw" fri="Pią" sat="Sob"></days>
+		<months jan="Sty" feb="Lut" mar="Mar" apr="Kwi" may="Maj" jun="Cze" jul="Lip" aug="Sie" sep="Wrz" oct="Paź" nov="Lis" dec="Gru"></months>
+	</locale>
+	<locale name="portuguese" title="Portuguese" territory="" text_direction="ltr" iso639="pt" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d-%B-%Y às %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="BR" iso3166_3="BRA">Brazil</territory>
+			<territory iso3166_2="PT" iso3166_3="PRT">Portugal</territory>
+		</territories>
+		<days sun="Dom" mon="Seg" tue="Ter" wed="Qua" thu="Qui" fri="Sex" sat="Sab"></days>
+		<months jan="Jan" feb="Fev" mar="Mar" apr="Abr" may="Mai" jun="Jun" jul="Jul" aug="Ago" sep="Set" oct="Out" nov="Nov" dec="Dez"></months>
+	</locale>
+	<locale name="romanian" title="Romanian" territory="Romania" text_direction="ltr" iso639="ro" iso3166_2="RO" iso3166_3="ROU" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%B %d, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-2</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="RO" iso3166_3="ROU">Romania</territory>
+		</territories>
+		<days sun="Du" mon="Lu" tue="Ma" wed="Mi" thu="Jo" fri="Vi" sat="Sa"></days>
+		<months jan="Ian" feb="Feb" mar="Mar" apr="Apr" may="Mai" jun="Iun" jul="Iul" aug="Aug" sep="Sep" oct="Oct" nov="Noi" dec="Dec"></months>
+	</locale>
+	<locale name="russian" title="Russian" territory="" text_direction="ltr" iso639="ru" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="3" plural="n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2" expression="nplurals=3; plural=n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2;"></plural_form>
+		<date_format>%B %d %Y г., %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>cp-866</charset>
+			<charset>koi8-r</charset>
+			<charset>windows-1251</charset>
+			<charset>iso-8859-5</charset>
+			<charset>koi8-u</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="RU" iso3166_3="RUS">Russia</territory>
+			<territory iso3166_2="UA" iso3166_3="UKR">Ukraine</territory>
+		</territories>
+		<days sun="Вс" mon="Пн" tue="Вт" wed="Ср" thu="Чт" fri="Пт" sat="Сб"></days>
+		<months jan="Янв" feb="Фев" mar="Мар" apr="Апр" may="Май" jun="Июн" jul="Июл" aug="Авг" sep="Сен" oct="Окт" nov="Ноя" dec="Дек"></months>
+	</locale>
+	<locale name="serbian_cyrillic" title="Serbian Cyrillic" territory="" text_direction="ltr" iso639="sr" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d. %B %Y. у %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>windows-1251</charset>
+		</codesets>
+		<territories>
+		</territories>
+		<days sun="Нед" mon="Пон" tue="Уто" wed="Сре" thu="Чет" fri="Пет" sat="Суб"></days>
+		<months jan="јан" feb="феб" mar="мар" apr="апр" may="мај" jun="јун" jul="јул" aug="авг" sep="сеп" oct="окт" nov="нов" dec="дец"></months>
+	</locale>
+	<locale name="serbian_latin" title="Serbian Latin" territory="" text_direction="ltr" iso639="sr" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d. %B %Y. u %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>windows-1250</charset>
+		</codesets>
+		<territories>
+		</territories>
+		<days sun="Ned" mon="Pon" tue="Uto" wed="Sre" thu="Čet" fri="Pet" sat="Sub"></days>
+		<months jan="jan" feb="feb" mar="mar" apr="apr" may="maj" jun="jun" jul="jul" aug="avg" sep="sep" oct="okt" nov="nov" dec="dec"></months>
+	</locale>
+	<locale name="slovak" title="Slovak" territory="Slovak" text_direction="ltr" iso639="sk" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="3" plural="n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2" expression="nplurals=3; plural=n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2;"></plural_form>
+		<date_format>%d.%B, %Y - %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-2</charset>
+			<charset>windows-1250</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="" iso3166_3="">Slovak</territory>
+		</territories>
+		<days sun="Ne" mon="Po" tue="Út" wed="St" thu="Št" fri="Pi" sat="So"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="Máj" jun="Jún" jul="Júl" aug="Aug" sep="Sep" oct="Okt" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="slovenian" title="Slovenian" territory="Slovenia" text_direction="ltr" iso639="sl" iso3166_2="SI" iso3166_3="SVN" charset="utf-8">
+		<plural_form nplurals="4" plural="n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3" expression="nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;"></plural_form>
+		<date_format>%d %B %Y ob %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-2</charset>
+			<charset>windows-1250</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="SI" iso3166_3="SVN">Slovenia</territory>
+		</territories>
+		<days sun="Ned" mon="Pon" tue="Tor" wed="Sre" thu="Čet" fri="Pet" sat="Sob"></days>
+		<months jan="Jan" feb="Feb" mar="Mar" apr="Apr" may="Maj" jun="Jun" jul="Jul" aug="Avg" sep="Sep" oct="Okt" nov="Nov" dec="Dec"></months>
+	</locale>
+	<locale name="spanish" title="Spanish" territory="" text_direction="ltr" iso639="es" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d-%m-%Y a las %H:%M:%S</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="AR" iso3166_3="ARG">Argentina</territory>
+			<territory iso3166_2="BO" iso3166_3="BOL">Bolivia</territory>
+			<territory iso3166_2="CL" iso3166_3="CHL">Chile</territory>
+			<territory iso3166_2="CO" iso3166_3="COL">Colombia</territory>
+			<territory iso3166_2="CR" iso3166_3="CRI">Costa Rica</territory>
+			<territory iso3166_2="DO" iso3166_3="DOM">Dominican Republic</territory>
+			<territory iso3166_2="EC" iso3166_3="ECU">Ecuador</territory>
+			<territory iso3166_2="SV" iso3166_3="SLV">El Salvador</territory>
+			<territory iso3166_2="GT" iso3166_3="GTM">Guatemala</territory>
+			<territory iso3166_2="HN" iso3166_3="HND">Honduras</territory>
+			<territory iso3166_2="MX" iso3166_3="MEX">Mexico</territory>
+			<territory iso3166_2="NI" iso3166_3="NIC">Nicaragua</territory>
+			<territory iso3166_2="PA" iso3166_3="PAN">Panama</territory>
+			<territory iso3166_2="PY" iso3166_3="PRY">Paraguay</territory>
+			<territory iso3166_2="PE" iso3166_3="PER">Peru</territory>
+			<territory iso3166_2="PR" iso3166_3="PRI">Puerto Rico</territory>
+			<territory iso3166_2="ES" iso3166_3="ESP">Spain</territory>
+			<territory iso3166_2="US" iso3166_3="USA">United States</territory>
+			<territory iso3166_2="UY" iso3166_3="URY">Uruguay</territory>
+			<territory iso3166_2="VE" iso3166_3="VEN">Venezuela</territory>
+		</territories>
+		<days sun="Dom" mon="Lun" tue="Mar" wed="Mie" thu="Jue" fri="Vie" sat="Sab"></days>
+		<months jan="Ene" feb="Feb" mar="Mar" apr="Abr" may="May" jun="Jun" jul="Jul" aug="Ago" sep="Sep" oct="Oct" nov="Nov" dec="Dic"></months>
+	</locale>
+	<locale name="swedish" title="Swedish" territory="" text_direction="ltr" iso639="sv" iso3166_2="" iso3166_3="" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>%d %B %Y kl %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-1</charset>
+			<charset>iso-8859-15</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="FI" iso3166_3="FIN">Finland</territory>
+			<territory iso3166_2="SE" iso3166_3="SWE">Sweden</territory>
+		</territories>
+		<days sun="Sön" mon="Mån" tue="Tis" wed="Ons" thu="Tors" fri="Fre" sat="Lör"></days>
+		<months jan="januari" feb="februari" mar="mars" apr="april" may="maj" jun="juni" jul="juli" aug="augusti" sep="september" oct="oktober" nov="november" dec="december"></months>
+	</locale>
+	<locale name="tagalog" title="Tagalog" territory="philippines" text_direction="ltr" iso639="tl" iso3166_2="PH" iso3166_3="PHL" charset="utf-8">
+	<plural_form nplurals="1" plural="0" expression="nplurals=1; plural=0;"></plural_form>
+	<date_format>%d-%m-%Y a las %H:%M:%S</date_format>
+	<codesets>
+	<charset>utf-8</charset>
+	<charset>iso-8859-5</charset>
+	<charset>Windows-1252</charset>
+	</codesets>
+	<territories>
+	<territory iso3166_2="PH" iso3166_3="PHL">Philippines</territory>
+	</territories>
+	<days sun="Lin" mon="Lun" tue="Mar" wed="Miy" thu="Hue" fri="Biy" sat="Sab"></days>
+	<months jan="Ene" feb="Feb" mar="Mar" apr="Abr" may="May" jun="Jun" jul="Jul" aug="Ago" sep="Sep" oct="Oct" nov="Nob" dec="Dis"></months>
+	</locale>
+	<locale name="thai" title="Thai" territory="Thailand" text_direction="ltr" iso639="th" iso3166_2="TH" iso3166_3="THA" charset="utf-8">
+		<plural_form nplurals="" plural="" expression=""></plural_form>
+		<date_format>%d %B %Y  %Rน.</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>tis-620</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="TH" iso3166_3="THA">Thailand</territory>
+		</territories>
+		<days sun="อา." mon="จ." tue="อ." wed="พ." thu="พฤ." fri="ศ." sat="ส."></days>
+		<months jan="ม.ค." feb="ก.พ." mar="มี.ค." apr="เม.ย." may="พ.ค." jun="มิ.ย." jul="ก.ค." aug="ส.ค." sep="ก.ย." oct="ต.ค." nov="พ.ย." dec="ธ.ค."></months>
+	</locale>
+	<locale name="turkish" title="Turkish" territory="Turkey" text_direction="ltr" iso639="tr" iso3166_2="TR" iso3166_3="TUR" charset="utf-8">
+		<plural_form nplurals="1" plural="0" expression="nplurals=1; plural=0;"></plural_form>
+		<date_format>%B %d, %Y at %I:%M %p</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>iso-8859-9</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="TR" iso3166_3="TUR">Turkey</territory>
+		</territories>
+		<days sun="Pazar" mon="Pazartesi" tue="Salı" wed="Çarşamba" thu="Perşembe" fri="Cuma" sat="Cumartesi"></days>
+		<months jan="Ocak" feb="Şubat" mar="Mart" apr="Nisan" may="Mayıs" jun="Haziran" jul="Temmuz" aug="Ağustos" sep="Eylül" oct="Ekim" nov="Kasım" dec="Aralık"></months>
+	</locale>
+	<locale name="ukrainian" title="Ukrainian" territory="Ukraine" text_direction="ltr" iso639="uk" iso3166_2="UA" iso3166_3="UKR" charset="utf-8">
+		<plural_form nplurals="3" plural="n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2" expression="nplurals=3; plural=n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10&gt;=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100&gt;=20) ? 1 : 2;"></plural_form>
+		<date_format>%B %d %Y р., %H:%M</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+			<charset>windows-1251</charset>
+			<charset>koi8-u</charset>
+		</codesets>
+		<territories>
+			<territory iso3166_2="UA" iso3166_3="UKR">Ukraine</territory>
+		</territories>
+		<days sun="Нд" mon="Пн" tue="Вт" wed="Ср" thu="Чт" fri="Пт" sat="Сб"></days>
+		<months jan="Січ" feb="Лют" mar="Бер" apr="Квт" may="Трв" jun="Чрв" jul="Лип" aug="Сер" sep="Вер" oct="Жов" nov="Лис" dec="Гру"></months>
+	</locale>
+	<locale name="vietnamese" title="Vietnamese" territory="Vietnam" text_direction="ltr" iso639="vi" iso3166_2="VN" iso3166_3="VNM" charset="utf-8">
+	<plural_form nplurals="1" plural="0" expression="nplurals=1; plural=0;"></plural_form>
+	<date_format>%A, ngÃ y %d %B nÄƒm %Y %H:%M</date_format>
+	<codesets>
+	<charset>utf-8</charset>
+	<charset>windows-1258</charset>
+	<charset>viscii</charset>
+	<charset>tcvn</charset>
+	</codesets>
+	<territories>
+	<territory iso3166_2="VN" iso3166_3="VNM">Vietnam</territory>
+	</territories>
+	<days sun="Chá»§ nháº*t" mon="thá»© hai" tue="thá»© ba" wed="thá»© tÆ°" thu="thá»© nÄƒm" fri="thá»© sÃ¡u" sat="thá»© báº£y"></days>
+	<months jan="thÃ¡ng giÃªng" feb="thÃ¡ng 2" mar="thÃ¡ng 3" apr="thÃ¡ng 4" may="thÃ¡ng 5" jun="thÃ¡ng 6" jul="thÃ¡ng 7" aug="thÃ¡ng 8" sep="thÃ¡ng 9" oct="thÃ¡ng 10" nov="thÃ¡ng 11" dec="thÃ¡ng 12"></months>
+	</locale>
+</locales>

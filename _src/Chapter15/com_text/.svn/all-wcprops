@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/addons/!svn/ver/205/trunk/components/com_text
+END
+install.text.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/addons/!svn/ver/18/trunk/components/com_text/install.text.php
+END
+upgrade.text.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/addons/!svn/ver/1/trunk/components/com_text/upgrade.text.php
+END
+admin.text.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/addons/!svn/ver/25/trunk/components/com_text/admin.text.php
+END
+admin.text.css
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/addons/!svn/ver/1/trunk/components/com_text/admin.text.css
+END
+uninstall.text.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/addons/!svn/ver/1/trunk/components/com_text/uninstall.text.php
+END
+sef_ext.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/addons/!svn/ver/79/trunk/components/com_text/sef_ext.php
+END
+text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/addons/!svn/ver/131/trunk/components/com_text/text.xml
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/addons/!svn/ver/1/trunk/components/com_text/index.html
+END
+text.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/addons/!svn/ver/44/trunk/components/com_text/text.php
+END
+admin.newmenu.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/addons/!svn/ver/7/trunk/components/com_text/admin.newmenu.php
+END
